@@ -7,11 +7,26 @@
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
-            <h1 class="hero__content__branding">
+            <div class="hero__content__branding">
                 <img src="./dist/images/disneyplus.svg" alt="Disney+">
-            </h1>
+            </div>
             <h3 class="title--small">
                 No Way Home
             </h3>
@@ -25,12 +40,12 @@
             <ul class="hero__content__combos">
                 <li class="hero__content__combos__combo">
                     <img src="./dist/images/logos/disney_star_plus.png" alt="descrisão imagem">
-                    <button class=".button">Assine agora</button>
+                    <button class="button">Assine agora</button>
                     <span class="text">Preço</span>
                 </li>
                 <li class="hero__content__combos__combo">
                     <img src="./dist/images/logos/disney_star_plus.png" alt="descrisão imagem">
-                    <button class=".button">Assine agora</button>
+                    <button class="button">Assine agora</button>
                     <span class="text">Preço</span>
                 </li>
             </ul>
@@ -144,6 +159,143 @@
             a decidir
         </p>
     </section>
+    <section class="image-text-section">
+        <img src="./dist/images/tv_pc_tablet_celular.png" alt="imagem com tv">
+        <div class="image-text-section">
+            <h2 class="title">a decir</h2>
+            <p class="text--big">
+                a decidir
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png"/>
+            <img src="./dist/images/fundo_rei_leao.png" alt="rei leao">
+        </picture>
+        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+            <h2 class="title">a decir</h2>
+            <p class="text--big">
+                a decidir
+            </p>
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">a decidir</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="dist/images/dispositivos/computador.png" alt="computador">
+                <h4 class="title--small">computador</h4>
+                <ul class="text">
+                    <li>chrome</li>
+                    <li>mac</li>
+                    <li>pc</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="dist/images/dispositivos/tv.png" alt="computador">
+                <h4 class="title--small">computador</h4>
+                <ul class="text">
+                    <li>chrome</li>
+                    <li>mac</li>
+                    <li>pc</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="dist/images/dispositivos/videogames.png" alt="computador">
+                <h4 class="title--small">computador</h4>
+                <ul class="text">
+                    <li>chrome</li>
+                    <li>mac</li>
+                    <li>pc</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="dist/images/dispositivos/celular.png" alt="computador">
+                <h4 class="title--small">computador</h4>
+                <ul class="text">
+                    <li>chrome</li>
+                    <li>mac</li>
+                    <li>pc</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    a respota da pergunta
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    a respota da pergunta
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    a respota da pergunta
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="disney+">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="mundo">
+                    <select>
+                        <option>English</option>
+                        <option selected>Português</option>
+                    </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">termos e condições de uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">politca de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">proteção de dados no brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">anuncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="" class="text--small">
+                        dispositivos compativeis
+                    </a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="" class="text--small">sobre o disney+</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                a decidir
+            </p>
+            <p class="text--small">
+                a decidir
+            </p>
+        </div>
+    </footer>
 
     <script src="./src/main.js"></script>
 </body>
